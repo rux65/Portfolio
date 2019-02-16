@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="en">
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Map of the world in binary form</title>
+  <link rel="stylesheet" href="styles2.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="buttons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<style>
+</style>
+</head>
+
+<body>
+
+<header>
+         <nav class="common_links">
+            <ul>
+               <li><a href="#">Ruxi's Portfolio</a></li>
+               <li><a href="#">Register</a></li>
+               <li><a href="#">Sign in</a></li>
+               <li><a href="#">Search</a></li>
+            </ul>
+         </nav>
+         <div class="banner">
+            <img src="media/banner3.jpg" alt="banner2">
+            <!--image source- own photograph-->
+         </div>
+         <nav class="top_menu">
+            <ul>
+               <li><a href="index.html">Palermo</a></li>
+			   <li><a href="TransportPage.html">Transport</a></li>
+               <li id="page"><a href="Map_of_the_World.html">Map of the World</a></li>
+               <li><a href="Reports.html">Exploring Reports</a></li>
+               <li><a href="About.html">About</a></li>
+            </ul>
+         </nav>
+      </header>
+
+  <table>
+    <tbody>
+      <tr id="line0">
+        <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+		<!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+        <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+        <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+        <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+      </tr>
+      <tr id="line1">
+		<!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+	   <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 5 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">1</td><td class="contour">1</td>
+
+
+
+
+		<td class="contour">1</td>
+
+
+
+
+
+		<td class="contour">1</td> <td class="contour">0</td> <td class="contour"><div id="toggle">0</div></td>
+        <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+        <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+        <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+      </tr>
+      <tr id="line2">
+        <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+
+	      <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td>
+
+        <!-- 5 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour" >0</td><td class="contour">1</td>
+
+        <!-- 4 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+        <!-- 10 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+        <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+        <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+        <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+      </tr>
+      <tr id="line3">
+         <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+
+		    <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+        <!-- 2 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+        <td class="contour">0</td><td class="contour">1</td>
+        <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+        <!-- 4 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td><td>0</td>
+        <td>0</td><td>1</td><td>1</td>
+        <!-- 5 batch--><td>1</td><td>1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td><td class="contour">1</td><td class="contour">0</td> <td class="contour">1</td>
+        <!-- 6 batch--><td class="contour">0</td><td class="contour">0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 7 batch--><td >0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+
+        <!-- 9 batch--><td>0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">1</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td ><td class="contour">0</td>
+
+        <!-- 10 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td>1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+
+        <!-- 11 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+
+        <!-- 12 batch--><td class="contour">1</td> <td class="contour">1</td> <td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+      </tr>
+
+      <tr id="line4">
+        <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+
+		<!-- 1 batch--><td>0</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour">0</td> <td class="contour">1</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 2 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour">1</td> <td class="contour">1</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 3 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td><td class="contour">0</td> <td class="contour">1</td><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td
+        <!-- 4 batch--><td class="contour">1</td> <td>1</td> <td>1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td><td class="contour">1</td> <td>0</td><td>1</td>
+        <!-- 5 batch--><td>0</td> <td>0</td> <td>0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour" >0</td> <td class="contour">0</td><td class="contour">0</td>
+
+        <!-- 6 batch--><td>0</td> <td >0</td> <td >0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td>1</td><td>1</td><td >0</td>
+
+        <!-- 7 batch--><td>0</td><td>1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 8 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+
+        <!-- 9 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 10 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+        <!-- 11 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 12 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour">1</td> <td class="contour">0</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <!-- 13 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+      </tr>
+
+      <tr id="line5">
+		<!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td class="contour">1</td>
+	    <!-- 1 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 2 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 3 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td class="contour">0</td>
+
+
+
+
+        <!-- 4 batch--><td class="contour">0</td></td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+        <!-- 5 batch--><td>0</td><td>1</td> <td>1</td> <td>1</td> <td class="contour">0</td> <td class="contour">0</td> <td>1</td><td>1</td><td>0</td><td>0</td>
+
+        <!-- 6 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+
+        <!-- 7 batch--><td class="contour">1</td>
+
+		<td class="contour">1</td>
+
+		<td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+
+        <!-- 8 batch--><td class="contour">1</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+
+        <!-- 9 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+
+        <!-- 10 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+        <td class="contour">1</td ><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+
+        <!-- 11 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 12 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 13 batch--><td class="contour">0</td> <td class="contour">1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+      </tr>
+
+      <tr id="line6" style="border:1px solid">
+         <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td >1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+
+		<!-- 1 batch--><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 2 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+        <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <!-- 3 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td><td>0</td><td>1</td>
+        <td>1</td><td>0</td><td class="contour">0</td> <td class="contour">0</td>
+        <!-- 4 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td >1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+        <!-- 6 batch--><td>0</td> <td>1</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td class="contour">1</td> <td class="contour">1</td><td>0</td><td>1</td>
+        <!-- 7 batch--><td>0</td> <td class="contour">1</td> <td class="contour">1</td><td class="contour"><!--stockholm-->  
+		
+		<div class="dropdown">
+         <button onclick="myFunction28()" class="dropbtn">0</button>
+         <div id="myDropdown28" class="dropdown-content">
+            <a href="#">Stockholm
+              <img src="media/stockholm.jpg" alt="img">
+			  <a class="link2index" href="index2.html#sweeden">Read more about technology hubs in Sweeden</a>
+
+            </a></div></div>
+		
+		</td><td>1</td><td>1</td>
+        <td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+        <!-- 8 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <!-- 9 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 10 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 11 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 12 batch--><td class="contour">0</td> <td>1</td> <td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td class="contour">1</td><td class="contour">1</td>
+        <!-- 13 batch--><td class="contour">0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+        <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+      </tr>
+      <tr id="line7">
+        <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+
+		<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">
+		
+		<div class="dropdown">
+         <button onclick="myFunction30()" class="dropbtn">0</button>
+         <div id="myDropdown30" class="dropdown-content">
+            <a href="#">Vancouver
+              <img src="media/vancouver.jpg" alt="img">
+			  <a class="link2index" href="index2.html#canada">Read more about technology hubs in Canada</a>
+
+            </a></div></div>
+		
+		</td><td class="contour">1</td><td class="contour">1</td>
+        <!-- 2 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td><td class="contour">1</td>
+        <!-- 3 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 4 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+        <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+
+        <!-- 6 batch--><td>0</td><td>1</td><td>1</td><td>0</td> <td class="contour"><!--Dublin-->
+		
+		<div class="dropdown">
+         <button onclick="myFunction25()" class="dropbtn">0</button>
+         <div id="myDropdown25" class="dropdown-content">
+            <a href="#">Dublin
+              <img src="media/Dublin.jpg" alt="img">
+			  <a class="link2index" href="index2.html#ireland">Read more about technology hubs in Ireland</a>
+
+            </a></div></div>
+		
+		
+		</td> <td class="contour">1</td>
+
+		<td class="contour">1</td> <td class="contour"><!--london--> 
+		
+		<div class="dropdown">
+         <button onclick="myFunction26()" class="dropbtn">1</button>
+         <div id="myDropdown26" class="dropdown-content">
+            <a href="#">London
+              <img src="media/london.jpg" alt="img">
+			  <a class="link2index" href="index2.html#uk">Read more about technology hubs in UK</a>
+
+            </a></div></div>
+		
+		</td> <td class="contour">0</td> <td class="contour"><!--Amsterdam--> 
+		<div class="dropdown">
+         <button onclick="myFunction27()" class="dropbtn">0</button>
+         <div id="myDropdown27" class="dropdown-content">
+            <a href="#">Amsterdam
+              <img src="media/amsterdam.jpg" alt="img">
+			  <a class="link2index" href="index2.html#netherlands">Read more about technology hubs in Netherlands</a>
+
+            </a></div></div>
+		
+		
+		 </td>
+        <!-- 7 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour"><!--Berlin-->
+		
+		<div class="dropdown">
+         <button onclick="myFunction29()" class="dropbtn">0</button>
+         <div id="myDropdown29" class="dropdown-content">
+            <a href="#">Berlin
+              <img src="media/berlin.jpg" alt="img">
+			  <a class="link2index" href="index2.html#germany">Read more about technology hubs in Germany</a>
+
+            </a></div></div>
+		
+		 </td>
+		<td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <!-- 8 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 9 batch--><td class="contour">0</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+        <!-- 10 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+        <td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+
+        <!-- 11 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+        <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+        <!-- 12 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+        <td>0</td><td>0</td><td>1</td><td>1</td><td class="contour">1</td>
+        <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+        <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+      </tr>
+
+      <tr id="line8">
+			<!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+
+			<!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+            <!-- 2 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+            <!-- 3 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+            <td class="contour">1</td> <td class="contour"><!-- toronto--> 
+			
+			<div class="dropdown">
+         <button onclick="myFunction38()" class="dropbtn">0</button>
+         <div id="myDropdown38" class="dropdown-content">
+            <a href="#">Toronto
+              <img src="media/toronto.jpg" alt="img">
+			  <a class="link2index" href="index2.html#canada">Read more about technology hubs in Canada</a>
+
+            </a></div></div>
+			
+			
+			
+			</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <!-- 4 batch--><td class="contour">0</td> <td class="contour">1</td> <td>0</td> <td>0</td><td>0</td> <td class="contour">1</td> <td class="contour">1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+
+            <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">
+			<!--Paris-->
+			<div class="dropdown">
+         <button onclick="myFunction13()" class="dropbtn">9</button>
+         <div id="myDropdown13" class="dropdown-content">
+            <a href="#">Paris
+              <img src="media/paris.jpg" alt="img">
+			  <a class="link2index" href="index2.html#france">Read more about technology hubs in France</a>
+
+            </a></div></div>
+			
+			
+			
+			
+			</td>
+            <td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">1</td> <td class="contour">1</td> <td class="contour"><!--munich-->
+			<div class="dropdown">
+         <button onclick="myFunction14()" class="dropbtn">7</button>
+         <div id="myDropdown14" class="dropdown-content">
+            <a href="#">Munich
+              <img src="media/munich2.webp" alt="img">
+			  <a class="link2index" href="index2.html#germany">Read more about technology hubs in Germany</a>
+
+            </a></div></div>
+			
+			
+
+			 </td> <td class="contour">1</td> <td class="contour">1</td>
+            <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+            <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+            <!-- 9 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+            <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+            <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <!-- 11 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <!-- 12 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+            <td>0</td><td>1</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+      </tr>
+
+      <tr id="line9">
+			<!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+			<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td> <td class="contour">0</td> <td class="contour">1</td>
+            <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td>
+            <!-- 2 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 3 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+            <td class="contour">1</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td>
+            <!-- 4 batch--><td class="contour"><!--boston-->
+			
+			<div class="dropdown">
+         <button onclick="myFunction35()" class="dropbtn">0</button>
+         <div id="myDropdown35" class="dropdown-content">
+            <a href="#">Boston
+              <img src="media/boston.jpg" alt="img">
+			  <a class="link2index" href="index2.html#us">Read more about technology hubs in US</a>
+
+            </a></div></div>
+			
+			</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 6 batch--><td>1</td><td>1</td><td>1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>
+            <td class="contour">1</td> 
+			<td class="contour">
+			<!--barcelona-->  
+			<div class="dropdown">
+         <button onclick="myFunction18()" class="dropbtn">1</button>
+         <div id="myDropdown18" class="dropdown-content">
+            <a href="#">Barcelona
+              <img src="media/barcelona.jpg" alt="img">
+			  <a class="link2index" href="index2.html#spain">Read more about technology hubs in Spain</a>
+
+            </a></div></div>
+			
+			</td><td class="contour">1</td>
+            
+			<!-- 7 batch--><td class="contour">0</td> <td class="contour"><!--Milan--> 
+			<div class="dropdown">
+         <button onclick="myFunction19()" class="dropbtn">1</button>
+         <div id="myDropdown19" class="dropdown-content">
+            <a href="#">Palermo 
+              <img src="media/milano.jpg" alt="img">
+			  <a class="link2index" href="index.html">Read more about Visiting Italy</a>
+
+            </a></div></div>
+			</td><td class="contour">0</td><td class="contour">1</td> <td>0</td> <td class="contour">0</td>
+            <td class="contour">0</td> <td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 9 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour">1</td><td class="contour">0</td>
+            <td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 11 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 12 batch--><td class="contour">1</td><td class="contour">1</td> <td class="contour">1</td> <td class="contour">1</td>  <td>1</td> <td>1</td> <td class="contour">0</td>
+            <td class="contour">0</td><td >1</td> <td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+          </tr>
+
+      <tr id="line10">
+			<!-- 5 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+
+		   <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td class="contour"><!-- san francisco-->
+		   
+		   <div class="dropdown">
+         <button onclick="myFunction37()" class="dropbtn">0</button>
+         <div id="myDropdown37" class="dropdown-content">
+            <a href="#">San Francisco
+              <img src="media/sanfrancisco.jpg" alt="img">
+			  <a class="link2index" href="index2.html#us">Read more about technology hubs in US</a>
+
+            </a></div></div>
+		   
+		   
+		   </td> <td class="contour">1</td> <td class="contour">1</td> <td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 2 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 3 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td>
+            <td class="contour">0</td> <td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 4 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+
+            <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td class="contour">0</td> <td class="contour">0</td> <td class="contour">1</td> <td class="contour">1</td>
+            <td class="contour1"><!--lisbon-->
+			
+			<div class="dropdown">
+         <button onclick="myFunction17()" class="dropbtn">1</button>
+         <div id="myDropdown17" class="dropdown-content">
+            <a href="#">Lisbon
+              <img src="media/lisbon.jpg" alt="img">
+			  <a class="link2index" href="index2.html#portugal">Read more about technology hubs in Portugal</a>
+
+            </a></div></div>
+			
+			
+			</td><td class="contour">1</td><td>0</td> <!--mediateranean sea gap-->
+            <!-- 7 batch--><td>0</td><td>1</td><td>0</td> <td>0</td><td class="contour">1</td><td class="contour">1</td> <td class="contour">1</td>
+            <td class="contour6">0</td> <td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour3">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour" >1</td>
+            <!-- 9 batch--><td class="contour2">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour4">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 11 batch--><td class="contour5">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 12 batch--><td class="contour">0</td> <td class="contour">1</td> <td class="contour">0</td> <td>1</td> <td>0</td> <td>1</td> <td class="contour4">1</td> <td class="contour">0</td><td>0</td><td>0</td>
+            <!-- 13 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line11">
+            <!-- 4 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+
+			<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">0</td><td class="contour5">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td> <!-- start-->
+            <!-- 2 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour2">1</td><td class="contour">0</td><td class="contour"><!--austin-->
+			
+			<div class="dropdown">
+         <button onclick="myFunction36()" class="dropbtn">0</button>
+         <div id="myDropdown36" class="dropdown-content">
+            <a href="#">Austin
+              <img src="media/austin.jpg" alt="img">
+			  <a class="link2index" href="index2.html#us">Read more about technology hubs in US</a>
+
+            </a></div></div>
+			
+			</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 3 batch--><td class="contour">0</td> <td class="contour">1</td><td class="contour">1</td> <td class="contour6">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 4 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+            <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">1</td> <td class="contour2">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td> <td>0</td> <td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 8 batch--><td>1</td><td>1</td><td>1</td> <td class="contour">1</td><td class="contour">1</td><td class="contour3">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 9 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour5">1</td> <td class="contour">0</td><td class="contour4">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+			<!-- 11 batch--><td class="contour">0</td><td class="contour5">1</td><td class="contour">0</td><td class="contour6">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+      <td class="contour"><!--beijing-->
+
+      <div class="dropdown">
+         <button onclick="myFunction()" class="dropbtn">1</button>
+         <div id="myDropdown" class="dropdown-content">
+            <a href="#">Beijing
+              <img src="media/beijing.jpg" alt="img">
+			  <a class="link2index" href="index2.html#china">Read more about technology hubs in China</a>
+
+            </a></div></div>
+            </td>
+
+
+            <!-- 12 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour"><!--seoul-->
+            <div class="dropdown">
+               <button onclick="myFunction2()" class="dropbtn">9</button>
+               <div id="myDropdown2" class="dropdown-content">
+                  <a href="#">Seoul
+                    <img src="media/seoul.jpg" alt="img">
+					<a class="link2index" href="index2.html#korea">Read more about technology hubs in South Korea</a>
+
+                  </a></div></div>
+
+
+          </td><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">
+		  <div class="dropdown">
+         <button onclick="myFunction23()" class="dropbtn">8</button>
+         <div id="myDropdown23" class="dropdown-content">
+            <a href="#">Tokyo
+              <img src="media/Tokyo_Asakusa_Kannon.jpg" alt="img">
+			  <a class="link2index" href="index2.html#japan">Read more about technology hubs in Japan</a>
+
+            </a></div></div>
+		  
+		  
+		  
+		  </td><td>0</td>
+            <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+            <!-- 14 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line12">
+			<!-- 0 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+		    <!-- 1 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 11 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+			<!-- 6 batch--><td>0</td><td>1</td><td>0</td> <td class="contour">0</td> <td class="contour">0</td> <td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td> <td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour2">1</td><td class="contour">0</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td>1</td><td>0</td> <td class="contour">
+			
+			<div class="dropdown">
+         <button onclick="myFunction39()" class="dropbtn">0</button>
+         <div id="myDropdown39" class="dropdown-content">
+            <a href="#">Tel Aviv-Yafo
+              <img src="media/Tel Aviv.jpg" alt="img">
+			  <a class="link2index" href="index2.html#israel">Read more about technology hubs in Israel</a>
+
+            </a></div></div>
+			
+			
+			</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 9 batch--><td class="contour">1</td><td class="contour">1</td class="contour"><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour5">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 11 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 12 batch--><td class="contour"><!--shanghai-->
+            <div class="dropdown">
+                 <button onclick="myFunction4()" class="dropbtn">7</button>
+                 <div id="myDropdown4" class="dropdown-content">
+                    <a href="#">Shangahi
+                      <img src="media/shanghai.jpg" alt="img">
+					  <a class="link2index" href="index2.html#china">Read more about technology hubs in China</a>
+
+                    </a></div></div>
+
+          </td><td>1</td><td>0</td><td>1</td><td >1</td><td class="contour">  
+		  <div class="dropdown">
+         <button onclick="myFunction24()" class="dropbtn">8</button>
+         <div id="myDropdown24" class="dropdown-content">
+            <a href="#">Fukuoka
+              <img src="media/fukuoka.jpg" alt="img">
+			  <a class="link2index" href="index2.html#japan">Read more about technology hubs in Japan</a>
+
+            </a></div></div>
+		  
+		  
+		  
+		  
+		  </td><td >0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+          <tr id="line13">
+			       <!-- 4 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+		        <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 2 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 3 batch--><td>0</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 4 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+
+			      <!-- 6 batch--><td>0</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 8 batch--><td class="contour">1</td><td class="contour"><!--egypt-->
+
+            <div class="dropdown">
+               <button onclick="myFunction3()" class="dropbtn">7</button>
+               <div id="myDropdown3" class="dropdown-content">
+                  <a href="#">Egypt
+                    <img src="media/egypt.jpg" alt="img">
+					<a class="link2index" href="index2.html#egypt">Read more about technology hubs in Egypt</a>
+
+                  </a></div></div>
+
+          </td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 9 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 11 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 12 batch--><td class="contour">1</td> <td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+          <tr id="line14">
+            <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+			<!-- 1 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td class="contour">1</td>
+            <!-- 2 batch--><td class="contour">1</td><td class="contour">0</td><td class="contour">
+			
+			<div class="dropdown">
+         <button onclick="myFunction42()" class="dropbtn">0</button>
+         <div id="myDropdown42" class="dropdown-content">
+            <a href="#">Monterrey
+              <img src="media/monterrey.jpg" alt="img">
+			  <a class="link2index" href="index2.html#mexico">Read more about technology hubs in Mexico</a>
+
+            </a></div></div>
+			
+			
+			
+			
+			</td><td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 3 batch--><td class="contour">0</td><td class="contour"><!--miami-->
+			
+			<div class="dropdown">
+         <button onclick="myFunction34()" class="dropbtn">1</button>
+         <div id="myDropdown34" class="dropdown-content">
+            <a href="#">Miami
+              <img src="media/miami.jpg" alt="img">
+			  <a class="link2index" href="index2.html#US">Read more about technology hubs in US</a>
+
+            </a></div></div>
+			
+			
+			
+			</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 6 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 9 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 10 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 11 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour"><!-- hanoi-->
+            <div class="dropdown">
+               <button onclick="myFunction11()" class="dropbtn">7</button>
+               <div id="myDropdown11" class="dropdown-content">
+                  <a href="#">Hanoi
+                    <img src="media/hanoi.jpg" alt="img">
+                    <a class="link2index" href="index2.html">Read more about technology hubs in Vietnam</a>
+
+                  </a></div></div>
+
+
+            </td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td>
+            <td class="contour"><!--hong kong-->
+              <div class="dropdown">
+                 <button onclick="myFunction10()" class="dropbtn">7</button>
+                 <div id="myDropdown10" class="dropdown-content">
+                    <a href="#">Hong Kong
+                      <img src="media/hong.jpg" alt="img">
+                      <a class="link2index" href="index2.html">Read more about technology hubs in China</a>
+
+                    </a></div></div>
+                  </td>
+            <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td class="contour"><!--taipei-->
+
+            <div class="dropdown">
+               <button onclick="myFunction5()" class="dropbtn">6</button>
+               <div id="myDropdown5" class="dropdown-content">
+                  <a href="#">Taipei
+                    <img src="media/taipei.jpg" alt="img">
+					<a class="link2index" href="index2.html#HoChi">Read more about technology hubs in Taiwan</a>
+
+                  </a></div></div>
+
+          </td><td class="contour">1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line15">
+             <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+			<!-- 1 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 2 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">
+			
+			<div class="dropdown">
+         <button onclick="myFunction43()" class="dropbtn">1</button>
+         <div id="myDropdown43" class="dropdown-content">
+            <a href="#">Mexico City <!--https://thenextweb.com/la/2012/08/11/18-latin-american-tech-hubs-know/-->
+              <img src="media/mexicocity.jpg" alt="img">
+			  <a class="link2index" href="index2.html#mexico">Read more about technology hubs in Mexico</a>
+
+            </a></div></div>
+			
+			
+			</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td> <td>0</td><td>0</td>
+            <!-- 3 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">0</td> <td class="contour"><!--puerto rico-->
+			
+			<div class="dropdown">
+         <button onclick="myFunction46()" class="dropbtn">1</button>
+         <div id="myDropdown46" class="dropdown-content">
+            <a href="#">San Juan <!--https://thenextweb.com/la/2012/08/11/18-latin-american-tech-hubs-know/-->
+              <img src="media/sanjuan.jpg" alt="img">
+			  <a class="link2index" href="index2.html#puertorico">Read more about technology hubs in Puerto Rico</a>
+
+            </a></div></div>
+			
+			
+			
+			</td><td >1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 6 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 9 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 10 batch--><td>0</td><td class="contour">1</td> <td class="contour">0</td><td class="contour"><!--hyderabat-->
+
+            <div class="dropdown">
+               <button onclick="myFunction7()" class="dropbtn">5</button>
+               <div id="myDropdown7" class="dropdown-content">
+                  <a href="#">Hyderabad
+                    <img src="media/hyderabad.jpg" alt="img">
+					<a class="link2index" href="index2.html#HoChi">Read more about technology hubs in India</a>
+
+                  </a></div></div>
+
+
+          </td><td class="contour">0</td><td class="contour">1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 11 batch--><td class="contour">0</td><td class="contour"><!--Myanmar-->
+            <div class="dropdown">
+               <button onclick="myFunction6()" class="dropbtn">3</button>
+               <div id="myDropdown6" class="dropdown-content">
+                  <a href="#">Myanmar
+                    <img src="media/myanmar.jpg" alt="img">
+                    <a class="link2index" href="index2.html">Read more about technology hubs in Myanmar</a>
+
+                  </a></div></div>
+
+          </td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 12 batch--><td>0</td><td class="contour">1</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+
+
+
+          <tr id="line16">
+             <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+			<!-- 1 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+			<!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td class="contour5">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="contour">1</td>
+            <!-- 6 batch--><td class="contour">1</td><td class="contour2">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour3">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 9 batch--><td class="contour">0</td><td class="contour">0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 10 batch--><td>0</td><td>0</td><td class="contour">0</td><td class="contour"><!--bengalore-->
+
+            <div class="dropdown">
+               <button onclick="myFunction8()" class="dropbtn">1</button>
+               <div id="myDropdown8" class="dropdown-content">
+                  <a href="#"><span>Bangalore</span>
+                    <img src="media/bangalore.jpg" alt="img">
+                    <a class="link2index" href="index2.html">Read more about technology hubs in India.</a>
+
+                  </a></div></div>
+
+          </td><td class="contour">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 11 batch--><td>0</td><td>1</td><td class="contour" >0</td><td class="contour">0</td><td class="contour">
+            <div class="dropdown">
+               <button onclick="myFunction9()" class="dropbtn">9</button>
+               <div id="myDropdown9" class="dropdown-content">
+                  <a href="#"><span>Bangkok</span>
+                    <img src="media/bangalore.jpg" alt="img">
+                    <a class="link2index" href="index2.html">Read more about technology hubs in Thailand</a>
+
+                  </a></div></div>
+
+            </td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>0</td>
+            <!-- 12 batch--><td>0</td><td >1</td><td class="contour">0</td><td class="contour">1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line17">
+            <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+
+			<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td>0</td>
+            <!-- 3 batch--><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour5">1</td><td class="contour">
+			
+			<div class="dropdown">
+               <button onclick="myFunction44()" class="dropbtn">0</button>
+               <div id="myDropdown44" class="dropdown-content">
+                  <a href="#">Caracas
+                    <img src="media/caracas.jpg" alt="img">
+                    <a class="link2index" href="index2.html#venezuela">Read more about technology hubs in Venezuela</a>
+
+                  </a></div></div>
+			
+			</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>1</td>
+            <!-- 4 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 6 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour3">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 7 batch--><td class="contour2">0</td><td class="contour">0</td><td class="contour4">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour3">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 10 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td class="contour5">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour"><!--HoChi7-->
+			<div class="dropdown">
+               <button onclick="myFunction12()" class="dropbtn">7</button>
+               <div id="myDropdown12" class="dropdown-content">
+                  <a href="#"><span>Ho Chi Minh City</span>
+                    <img src="media/HoChi.jpg" alt="img">
+                    <a class="link2index" href="index2.html#HoChi">Read more about technology hubs in Vietnam</a>
+
+                  </a></div></div>
+			</td><td>0</td><td>1</td><td>1</td>
+            <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+            <!-- 14 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line18">
+            <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 1 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+
+			<!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 3 batch--><td>0</td><td class="contour">0</td><td class="contour">0</td><td class="contour"><!--medellin-->
+			
+			<div class="dropdown">
+               <button onclick="myFunction45()" class="dropbtn">0</button>
+               <div id="myDropdown45" class="dropdown-content">
+                  <a href="#">Medellin
+                    <img src="media/medellin.jpg" alt="img">
+                    <a class="link2index" href="index2.html#colombia">Read more about technology hubs in Colombia</a>
+
+                  </a></div></div>
+			
+			
+			
+			</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 4 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 6 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">
+			
+			<div class="dropdown">
+               <button onclick="myFunction49()" class="dropbtn">0</button>
+               <div id="myDropdown49" class="dropdown-content">
+                  <a href="#">Abidjan
+                    <img src="media/Abidjan.jpg" alt="img">
+                    <a class="link2index" href="index2.html#colombia">Read more about technology hubs in Cote D'Ivoire</a>
+
+                  </a></div></div>
+			
+			</td><td class="contour">0</td><td class="contour">
+			
+			
+			<div class="dropdown">
+               <button onclick="myFunction50()" class="dropbtn">0</button>
+               <div id="myDropdown50" class="dropdown-content">
+                  <a href="#">Accra
+                    <img src="media/Accra.jpg" alt="img">
+                    <a class="link2index" href="index2.html#ghana">Read more about technology hubs in Ghana</a>
+
+                  </a></div></div>
+			
+			
+			
+			</td><td class="contour">0</td>
+            <!-- 7 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour5">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td>1</td>
+            <!-- 9 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 11 batch--><td>0</td><td>1</td><td class="contour">1</td><td class="contour4">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 12 batch--><td class="contour">0</td><td class="contour">1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line19">
+            <!-- 1 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+			<!-- 2 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 3 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 4 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 6 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+            <!-- 7 batch--><td>1</td><td class="contour">1</td><td class="contour5">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td>1</td>
+            <!-- 9 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 10 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td >1</td>
+			<!-- 11 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour"><!--malaysia-->
+			<div class="dropdown">
+         <button onclick="myFunction20()" class="dropbtn">1</button>
+         <div id="myDropdown20" class="dropdown-content">
+            <a href="#">Kuala Lumpur
+              <img src="media/malaysia.jpg" alt="img">
+			  <a class="link2index" href="index2.html#malaysia">Read more about technology hubs in Malaysia</a>
+
+            </a></div></div>
+			</td><td class="contour">0</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">0</td>
+
+            <!-- 12 batch--><td class="contour">0</td><td class="contour"><!--manilla-->
+			<div class="dropdown">
+         <button onclick="myFunction21()" class="dropbtn">1</button>
+         <div id="myDropdown21" class="dropdown-content">
+            <a href="#">Manila
+              <img src="media/manila.jpg" alt="img">
+			  <a class="link2index" href="index2.html#manila">Read more about technology hubs in Phillippines</a>
+
+            </a></div></div></td><td class="contour">0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line20">
+            <!-- 1 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+
+			<!-- 2 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 3 batch--><td class="contour">0</td><td class="contour5">1</td><td class="contour2">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+            <!-- 4 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+            <!-- 7 batch--><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour5">0</td><td class="contour">0</td><td class="contour"><!--kenya-->
+			<div class="dropdown">
+         <button onclick="myFunction15()" class="dropbtn">7</button>
+         <div id="myDropdown15" class="dropdown-content">
+            <a href="#">Kenya
+              <img src="media/nairobi.jpg" alt="img">
+			  <a class="link2index" href="index2.html#kenya">Read more about technology hubs in Kenya</a>
+
+            </a></div></div>
+			
+			</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 9 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+            <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td class="contour2">1</td><td class="contour"><!--singapore-->
+			<div class="dropdown">
+         <button onclick="myFunction22()" class="dropbtn">1</button>
+         <div id="myDropdown22" class="dropdown-content">
+            <a href="#">Singapore
+              <img src="media/singapore_gardens.jpg" alt="img">
+			  <a class="link2index" href="index2.html#singapore">Read more about technology hubs in Singapore</a>
+
+            </a></div></div>
+			
+			
+			
+			
+			
+			</td><td class="contour">0</td><td>0</td><td class="contour">1</td class="contour"><td class="contour">1</td>
+            <!-- 12 batch--><td class="contour">0</td><td>0</td><td class="contour3">0</td><td class="contour">0</td><td>1</td><td>0</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 13 batch--><td class="contour">1</td><td class="contour">1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+			<!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+		  
+          <tr id="line21">
+            <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+
+			<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 3 batch--><td class="contour">1</td><td class="contour2">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+            <!-- 4 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 5 batch--><td class="contour">0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+            <!-- 7 batch--><td>1</td><td>1</td><td class="contour">0</td><td class="contour2">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+            <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+            <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+            <!-- 11 batch--><td>1</td><td>1</td><td>1</td><td >1</td><td>1</td><td class="contour2">1</td><td class="contour"><!--jakarta-->
+			<div class="dropdown">
+         <button onclick="myFunction16()" class="dropbtn">1</button>
+         <div id="myDropdown16" class="dropdown-content">
+            <a href="#">Jakarta
+              <img src="media/jakarta.jpg" alt="img">
+			  <a class="link2index" href="index2.html#indonesia">Read more about technology hubs in Indonesia</a>
+
+            </a></div></div>
+			
+			
+			</td><td>1</td><td class="contour">0</td><td class="contour">1</td>
+            <!-- 12 batch--><td>0</td><td>0</td><td class="contour3">0</td><td class="contour">1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+            <!-- 13 batch--><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+      			<!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+          </tr>
+
+          <tr id="line22">
+                <!-- 0 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+				<!-- 5 batch--><td class="contour">0</td><td class="contour"><!--recife-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction31()" class="dropbtn">1</button>
+         <div id="myDropdown31" class="dropdown-content">
+            <a href="#">Recife
+              <img src="media/recife.jpg" alt="img">
+			  <a class="link2index" href="index2.html#brazil">Read more about technology hubs in Brazil</a>
+
+            </a></div></div>
+				
+				
+				
+				</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 7 batch--><td>0</td><td>1</td><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 9 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+				<!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 13 batch--><td>0</td><td>1</td><td class="contour">0</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+          </tr>
+
+          <tr id="line23">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 1 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td class="contour">
+				<!--lima--https://thenextweb.com/la/2012/08/11/18-latin-american-tech-hubs-know/-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction40()" class="dropbtn">1</button>
+         <div id="myDropdown40" class="dropdown-content">
+            <a href="#">Lima
+              <img src="media/lima.jpg" alt="img">
+			  <a class="link2index" href="index2.html#peru">Read more about technology hubs in Peru</a>
+
+            </a></div></div>
+				
+				
+				</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 6 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+
+				<!-- 7 batch--><td>0</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td>1</td><td>0</td><td>1</td><td class="contour">1</td>
+                <!-- 9 batch--><td class="contour">0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+				<!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 12 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 13 batch--><td >0</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+              </tr>
+          <tr id="line24">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td>0</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+
+				<!-- 7 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 8 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td >0</td><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 9 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 13 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+              <tr id="line25">
+                <!-- 0 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 2 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour"><!-- sao paulo-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction32()" class="dropbtn">1</button>
+         <div id="myDropdown32" class="dropdown-content">
+            <a href="#">Sao Paulo
+              <img src="media/saopaulo.jpg" alt="img">
+			  <a class="link2index" href="index2.html#brazil">Read more about technology hubs in Brazil</a>
+
+            </a></div></div>
+				
+				
+				
+				
+				</td><td class="contour">0</td><td class="contour">0</td><td class="contour"><!--rio-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction33()" class="dropbtn">1</button>
+         <div id="myDropdown33" class="dropdown-content">
+            <a href="#">Rio de Janeiro
+              <img src="media/rio.jpg" alt="img">
+			  <a class="link2index" href="index2.html#brazil">Read more about technology hubs in Brazil</a>
+
+            </a></div></div>
+				
+				
+				
+				</td><td>1</td>
+                <!-- 5 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>0</td><td>0</td><td>0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 8 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td>0</td>
+                <!-- 9 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+				<!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 12 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 13 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+              </tr>
+
+        <tr id="line26">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+				<!-- 3 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 7 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 8 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">0</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 13 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 14 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+
+              <tr id="line27">
+                <!-- 0 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 6 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 8 batch--><td class="contour">0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+				<!-- 9 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td class="contour">1</td>
+                <!-- 12 batch--><td class="contour">0</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 13 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+              </tr>
+              <tr id="line28">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+				<!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td><td >1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 6 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td >1</td><td class="contour"><!--cape town-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction48()" class="dropbtn">1</button>
+         <div id="myDropdown48" class="dropdown-content">
+            <a href="#">Cape Town 
+              <img src="media/capetown.jpg" alt="img">
+			  
+			  <!--<button class="links2index" onclick="f()">Link </button>
+			  <script>
+			  function f(){
+			  location.replace("index2.html#test");
+			  window.click(myFunction38());
+			  }
+			  </script>  not working-->
+			  
+			<!--<a class="links2index"  href="index2.html#test" onload="$myFunction38();return false;">Link </a> not working -->
+		
+			  <a class="link2index" href="index2.html#test" onclick ="f();return false;">Read more about technology hubs in South Africa</a>
+			
+			<script>
+			function f(){
+    testwindow = window.load("index2.html#test"); //this is working to load but not to load the dropdown
+	
+    //testwindow.addEventListener('click', myFunction38()); not working
+	//window.onload = myFunction38 ()
+	
+	//testwindow.addEventListener('load', myFunction38()){
+	//document.getElementById("myDropdown38").classList.toggle("show");}; not working
+	
+	
+	//window.open('index2.html');
+	//window.somefunction = myFunction38(){
+	//document.getElementById("myDropdown38").classList.toggle("show");} not working
+	
+	
+}
+			</script> 
+			
+            </a></div></div>
+				
+				</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 8 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 11 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td class="contour">1</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 12 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 13 batch--><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 14 batch--><td>0</td><td>1</td><td>0</td><td class="contour">0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+              </tr>
+              <tr id="line29">
+                <!-- 0 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 2 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td class="contour"><!--santiago-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction41()" class="dropbtn">1</button>
+         <div id="myDropdown41" class="dropdown-content">
+            <a href="#">Santiago
+              <img src="media/santiago.jpg" alt="img">
+			  <a class="link2index" href="index2.html#chile">Read more about technology hubs in Chile</a>
+
+            </a></div></div>
+				
+				
+				</td><td class="contour">0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 4 batch--><td class="contour">0</td><td class="contour"><!--buenos aires-->
+				
+				<div class="dropdown">
+         <button onclick="myFunction47()" class="dropbtn">1</button>
+         <div id="myDropdown47" class="dropdown-content">
+            <a href="#">Buenos Aires <!--https://thenextweb.com/la/2012/08/11/18-latin-american-tech-hubs-know/-->
+              <img src="media/buenosaires.jpg" alt="img">
+			  <a class="link2index" href="index2.html#argentina">Read more about technology hubs in Argentina</a>
+
+            </a></div></div>
+				
+				</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 11 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">1</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td class="contour">1</td><td class="contour">0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+
+              <tr id="line30">
+                <!-- 0 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 6 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 7 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 14 batch--><td class="contour">0</td><td class="contour">0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+              </tr>
+              <tr id="line31">
+                <!-- 0 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td class="contour">0</td><td class="contour">0</td>
+                <!-- 4 batch--><td class="contour">0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td class="contour">1</td><td class="contour">1</td><td class="contour">0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+              </tr>
+              <tr id="line32">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 1 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td class="contour">0</td><td class="contour">1</td>
+                <!-- 4 batch--><td class="contour">0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 5 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+
+              <tr id="line33">
+                <!-- 0 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 9 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 4 batch--><td class="contour">0</td><td class="contour">0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+
+              <tr id="line34">
+                <!-- 0 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 7 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 10 batch--><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+                <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+				<!-- 11 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 13 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 14 batch--><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td>
+                <!-- 6 batch--><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 2 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- first batch--><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td>
+                <!-- 3 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td>
+                <!-- 5 batch--><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td>
+                <!-- 12 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td>
+                <!-- 4 batch--><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+                <!-- 8 batch--><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td>
+              </tr>
+
+
+
+
+
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+<script>
+
+
+
+</script>
+
+</body>
+
+
+
+</html>
