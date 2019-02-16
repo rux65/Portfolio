@@ -17,7 +17,7 @@
 	border-left: 2px solid black;
 	padding: 1rem;
 	background: grey;
-	width: 10%;
+	width: 15%;
 	justify-content: center;
 	margin: 0 -0.2%;
 }
@@ -588,9 +588,9 @@ footer {
 	font-family: 'Nanum Gothic', sans-serif;
 }
 
-#first {
+/*#first {
 	margin-left: 30.5%;
-}
+}*/
 
 .other {
 	margin-right: 1%;
@@ -601,6 +601,7 @@ footer {
 	text-align: center;
 	border-radius: 5%;
 	margin-top: 5%;
+	margin:0 auto;
 }
 
 .other a {
