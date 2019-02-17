@@ -42,6 +42,7 @@ h4{
   width:12.6%;
   height:12.6%;
   position:relative;
+  
 }
 
 .larger1{
@@ -265,4 +266,68 @@ h4{
 .chart_bar{
 	width:80%;
 	margin:0 auto;
+}
+
+ul, #myUL {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret div{
+  background:#00EFFF;
+  border-radius:5px;
+  display:inline;
+  padding:7px;
+  padding-right:40px;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.one{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:10px;
+}
+
+.one td{
+  border:1px solid;
+  padding:10px;
+  text-align:center;
+}
+
+.one tr:first-child{
+	background:#f2f2f2;
+}
+
+#end{
+	margin:0 auto;
+	text-align:center;
+	padding:10px;
 }
