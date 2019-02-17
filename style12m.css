@@ -1,0 +1,495 @@
+main{
+	width:80%;
+  margin:0 auto;
+  font-family:calibri;
+}
+
+
+h1{
+  font-size:36px;
+}
+
+
+div h3{
+  font-size:40px;
+  color:#059DD6;
+}
+
+h4{
+  font-size:34px;
+  color:#036EBD;
+  font-weight:normal;
+}
+
+
+
+/*---------------my own timeline ------------------*/
+.timeline3{
+  width:100%;
+  border-collapse:collapse;
+  font-size:20px;
+  overflow: visible;
+  margin:0 auto;
+  text-align:center;
+  float:left;
+  position:relative;
+}
+
+
+.smaller{
+  font-family:calibri;
+  color:grey;
+  text-align:center;
+  width:12.6%;
+  height:12.6%;
+  position:relative;
+}
+
+.larger1{
+  width:28%;
+  border-collapse:collapse;
+  position:relative;
+  float:left;
+}
+
+.medium1{
+  width:20.6%;
+  position:relative;
+}
+
+
+.line_circle, .line_circle3{
+  border-left: 4px solid blue;
+  height:10rem;
+  margin-top:-10rem;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  margin-left:10rem;
+  position:relative;
+}
+
+.circle_s{
+	border:1px solid;
+    position:relative;
+	height:1.5rem;
+	width:1.5rem;
+    top:2rem;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+	margin-left:9.3rem;
+	z-index:2;
+	
+ }
+ 
+ #first_circle .circle_s{
+	 top:0em;
+	 z-index:1;
+ }
+ 
+ #first_circle .line_circle{
+	 top:10rem;
+	 z-index:1;
+ }
+
+ #first_circle .date_text{
+	 top:-2rem;
+	 /*color:pink;*/
+ }
+ 
+ #first_circle .line_text{
+	 margin-top:-6rem;
+	 margin-bottom:6rem;
+ }
+ 
+.line_text{
+  position:relative;
+  margin-left:11rem;
+  font-size:24px;
+  margin-top:-3.2rem;
+  width:7rem;
+  float:left;
+}
+
+.date_text{
+  margin-left:-0.2em;
+  font-size:24px;
+  margin-top:0.2rem;
+  position:relative;
+  width:10rem;
+}
+
+
+.medium1 p{
+	position:relative;
+  background:rgba(153,255,255,0.2);
+  font-size:24px;
+  border-radius:20px;
+  margin: 0 5px;
+  padding:10px;
+  margin-left:0px;
+  margin-right:10px;
+}
+
+.line_circle3{
+    height: 12rem;
+    margin-top:-10rem;
+  }
+#last_circle{
+	margin-top:-2rem;
+}
+	
+
+/*
+.line_circle2{
+  border-left: 4px solid blue;
+  height: 10em;
+  margin-top:0px;
+}
+
+.circle_s2 span {
+    position:relative;
+    display:inline;
+    width: 1.4em;
+    padding-left:0.8em;
+    padding-right:0.8em;
+    padding-top:0.35em;
+    top:-7.5em;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background-color: #fff;
+
+ }
+
+  .line_text2{
+    position:relative;
+    margin-left:25%;
+    margin-top:-2.2em;
+    font-size:24px;
+  } */
+/*
+  .date_text2{ /*this is the second*/ /*
+    font-size:24px;
+    margin-left:-10em;
+    margin-top:-7.5em;
+    padding-top:0px;
+	
+
+  }
+
+  .line_circle3{
+    height: 5em;
+    margin-top:50px;
+  }
+
+  .circle_s3 span {
+      position:relative;
+      display:inline;
+      width: 1.4em;
+      padding-left:0.8em;
+      padding-right:0.8em;
+      padding-top:0.35em;
+      top:-4em;
+      border: 1px solid #999;
+      border-radius: 50%;
+      background-color: #fff;
+   }
+
+    .line_text3{
+      position:relative;
+      margin-left:13%;
+      margin-top:-2.240em;
+      font-size:24px;
+    }
+
+    .date_text3{ /*this is the second*//*
+      font-size:24px;
+      margin-left:-15em;
+      margin-top:-4.5em;
+      padding-top:0px;
+    }
+
+
+
+    .circle_s4 span {
+        position:relative;
+        display:inline;
+        width: 1.4em;
+        padding-left:0.8em;
+        padding-right:0.8em;
+        padding-top:0.35em;
+        top:-4em;
+        border: 1px solid #999;
+        border-radius: 50%;
+        background-color: #fff;
+     }
+
+      .line_text4{
+        position:relative;
+        margin-left:13%;
+        margin-top:-2.240em;
+        font-size:24px;
+      }
+
+      .date_text4{ /*this is the second*/ /*
+        font-size:24px;
+        margin-left:-15em;
+        margin-top:-4.5em;
+        padding-top:0px;
+
+      }
+*/
+/* timeline stuff coding*/
+
+
+/* bar charts-------------------------------------------------------------------*/
+
+
+/* -------------------------------------------------pie charts --------------*/
+#containerC1, #containerC2, #containerC3, #containerC4, #containerC5, #containerC6, #containerC7, #containerC8, #containerC9, #containerC10, #containerC11,#containerC12,#containerC13,#containerC14,#containerC15,#containerC16,#containerC17, #containerC18{
+
+  float:left;
+  width:120px;
+  position:relative;
+  align:justify;
+  height:120px;
+  margin-bottom:5px;
+  margin-top:5px;
+  margin-left:5px;
+}
+
+#containerC19, #containerC20, #containerC21, #containerC22, #containerC23, #containerC24, #containerC25, #containerC26, #containerC27, #containerC28, #containerC29,#containerC30, #containerC31, #containerC32{
+
+  width:120px;
+  height:120px;
+  float:left;
+  position:relative;
+  align:justify;
+  margin-bottom:5px;
+  margin-top:5px;
+  margin-left:5px;
+
+}
+#containerC33, #containerC34, #containerC35, #containerC36{
+    margin-bottom:5px;
+    margin-top:5px;
+    float:left;
+    position:relative;
+    align:justify;
+    display:inline;
+    width:120px;
+    height:120px;
+    margin-left:5px;
+}
+
+.stats-re{
+  width:100%;
+}
+
+
+.circles94,.circles96{
+    display:inline;
+    width:25%;
+    float:left;
+    margin-top:7em;
+}
+
+.circles95{
+  width:30%;
+  display:inline;
+  position:relative;
+  float:left;
+}
+
+
+.circles95 img{
+  width:95%;
+  height:95%;
+  float:left;
+  display:inline;
+  position:relative;
+  top:0px;
+  margin:3em 0;
+
+}
+
+.arrow55{
+  width:7%;
+  height:7%;
+  display:inline;
+  float:left;
+  position:relative;
+  margin-top:12em;
+}
+.arrow55 img{
+  width:80%;
+  height:80%;
+}
+
+.text_middle1{
+  width:45%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: calibri;
+  margin-top:-12em;
+  margin-left:3em;
+  text-align:center;
+  display:inline;
+  float:left;
+  position:relative;
+  color:white;
+}
+
+#containerC37, #containerC38, #containerC39,#containerC40{
+  width:80%;
+  height:80%
+}
+
+#containerC38, #containerC40{
+  margin-left:3.8em;
+}
+
+.results2{
+  width:100%;
+  font-family:calibri;
+  font-size:30px;
+  font-weight:bold;
+  text-align:center;
+  float:left;
+}
+
+.results2 td{
+  border:1px solid;
+}
+
+.stats2 {
+  width:33%;
+  margin-left:2em;
+}
+
+.results2 img{
+  width:7em;
+  height:7em;
+}
+
+.red_span{
+  color:rgb(197,50,43);
+  font-weight:bold;
+}
+
+.headline1 p{
+  font-size:42px;
+}
+
+.headline1 span{
+  font-size:80px;
+  padding:0.5em;
+}
+
+.table_of_stars{
+  width:100%;
+  border-collapse:collapse;
+  font-size:24px;
+  color:slategrey;
+  font-weight:bold;
+}
+
+.table_of_stars td{
+  border:3px solid white;
+  border-collapse:collapse;
+  padding:10px;
+}
+
+.decrease_in_clicks{
+  width:100%;
+  position:relative;
+  float:left;
+  border-collapse:collapse;
+
+}
+
+
+.decrease_in_clicks img{
+  width:4em;
+  height:4em;
+}
+
+
+#containerC41, #containerC42, #containerC43,#containerC44,#containerC45, #containerC46, #containerC47,#containerC48{
+  width:90%;
+  height:90%;
+
+}
+
+#containerC49, #containerC50, #containerC51,#containerC52,#containerC53, #containerC54, #containerC55,#containerC56{
+  width:90%;
+  height:90%;
+
+}
+
+
+.circles54{
+  width:20%;
+  padding-bottom:25px;
+  padding-top:25px;
+  padding-left:10px;
+}
+.arrow54{
+  align-items:center;
+  display:flex;
+  position:relative;
+  vertical-align: middle;
+  top:6em;
+}
+.text_BP {
+  font-size:32px;
+  text-align:center;
+  Font-weight:bold;
+  margin-right:20px;
+}
+
+.writing1 p{
+  font-size:24px;
+  font-family:calibri;
+  color:slategrey;
+
+}
+
+.phish_type1{
+  width:100%;
+  font-size:24px;
+  text-align:center;
+
+}
+
+.phish_type1 td{
+  width:25%;
+
+}
+
+.phish_type1 img, .phish_type2 img{
+  width:10em;
+  height:10em;
+}
+
+.phish_type2{
+  width:100%;
+
+}
+.background_1 td{
+  background:rgba(0,255,112,0.2);
+  padding:10px;
+  border-radius:5px;
+  height:2.5em;
+
+}
+
+.background_2 div{
+  background:rgba(0,255,112,0.2);
+  padding:10px;
+  border-radius:5px;
+  height:2.5em;
+  font-weight:bold;
+  font-size:30px;
+
+}
