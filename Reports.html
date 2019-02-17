@@ -13,11 +13,9 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 </head>
 
@@ -54,6 +52,10 @@ This page focuses on implementing other pieces of code from other  languages int
 within the implemented files. 
 
 This was an exercise to learn to work with multiple languages and learn about them. 
+
+Due to large amount of data that needs to be entered in HTML, this report has been 
+automated with Flask in Python - data needs to be entered once and the graphs will pick up on the 
+relevant information and convert it according to the mathematical functions assigned to them.  
 
 </p>
 
@@ -450,14 +452,65 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 <div class="chart_bar">
 <canvas id="myChart"></canvas>
 </div>
+
+<table id="messages_horizontal_bar" style="width:97%; margin-top:40px">
+  <tbody>
+    <tr>
+      <td style="width:15%"><p> Messages Sent</p></td>
+      <td style="width:12%; text-align:right; padding-right:5px"><p>98 of 237</p></td>
+      <td id="progressbar1"></td>
+    </tr>
+    <tr>
+      <td style="width:15%"><p> Messages Opened</p> </td>
+      <td style="width:12%;  text-align:right; padding-right:5px"><p>37 of 237</p></td>
+      <td id="progressbar2"></td>
+    </tr>
+    <tr>
+      <td style="width:15%"><p>Messages Replied</p></td>
+      <td style="width:12%; text-align:right; padding-right:5px"><p>107 of 237</p></td>
+      <td id="progressbar3"></td>
+    </tr>
+    <tr>
+      <td style="width:15%"><p>Messages Seen</p></td>
+      <td style="width:12%; text-align:right; padding-right:5px"><p>78 of 237</p></td>
+      <td  id="progressbar4"></td>
+    </tr>
+  </tbody>
+</table>
+
 <!------------------------------------------------------------------------------------------------------------------------------>
 <div>
   <h3>Appendices</h3>
 </div>
 
+<ul id="myUL">
+  <li><span class="caret"><div>Please click here to view results on table 1</div></span>
+    <ul class="nested">
+		<table class="one">
+		<tr>
+		<td>#</td>
+		<td>2015</td>
+<td>2016</td>
+<td>2017</td>
+<td>2018</td>
+<td>2019</td>
+		</tr>
+		<tr>
+		<td>Worldwide Email Accounts (M)</td>
+		<td>4,353</td>
+<td>4,626</td>
+<td>	4,920	</td>
+<td>	5,243	</td>
+<td>	5,594	</td>
+ </tr>
+		</table>
+	</ul>
+	</li>
+</ul>
 
 
 
+<div id="end"><p>-End-</p></div>
 
 </main>
     <footer>
@@ -550,6 +603,44 @@ Chart.plugins.register({
        }
    });
 
+
+$('#progressbar1').LineProgressbar({
+	percentage: 95,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+
+$('#progressbar2').LineProgressbar({
+	percentage: 74,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+$('#progressbar3').LineProgressbar({
+	percentage: 65,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+$('#progressbar4').LineProgressbar({
+	percentage: 95,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD'
+});
+
+
+
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
 
 
 </script>
