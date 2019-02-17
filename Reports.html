@@ -62,7 +62,7 @@
   <h3> Implementing Graphs </h3>
 </div>
 
-<p style="padding-bottom:40px;">
+<p>
 This page focuses on implementing other pieces of code from other  languages into the HTML and CSS - without knowing all the elements contained 
 within the implemented files. 
 
@@ -419,7 +419,7 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 <h4 style="margin-top:50px">Number of emails</h4>
 
 
-<table class="decrease_in_clicks" > <!-- decrease in clicks-->
+<table class="decrease" > <!-- decrease in clicks-->
   <tbody>
 
     <tr>
@@ -449,10 +449,6 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 </p></div>
 
 
-
-
-
-
 <div class="writing1">
 <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
 </p></div>
@@ -464,41 +460,13 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
   <h3>Trend Analysis</h3>
 </div>
 
-<table style="width:80%; top:0;margin:0; position:relative;">
-  <tbody>
-    <tr>
-      <td style="width:80%; height:80%;">
-        <ul style="list-style-type:none; width:99%; ">
-        <li style="padding-left:10px; padding-bottom:20px;  padding-top:0; top:0; bottom:0; right:0; left:0; width:94%; height:20%"><canvas id="myChart"></canvas></li>
-        
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
+<div class="chart_bar">
+<canvas id="myChart"></canvas>
+</div>
 <!------------------------------------------------------------------------------------------------------------------------------>
 <div>
   <h3>Appendices</h3>
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------>
-
-
-<!------------------------------------------------------------------------------------------------------------------------------>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -517,14 +485,14 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 <script>
 
 // here are my bar charts --------------------------------------------------------------------------//
-var ctx = document.getElementById("myChart"); //opened
+var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["5th Apr 2017", "13th Sep 2017" , "18th Oct 2017" , "28th Mar 2018", "11th Apr 2018", "18th Apr 2018", "23rd Apr 2018", "2nd May 2018"],
+    labels: ["6th Apr 2018", "13th Sep 2018" , "18th Oct 2018" , "28th Mar 2019", "11th Apr 2019", "18th Apr 2019", "23rd Apr 2019", "2nd May 2019"],
     datasets: [
-      { label: 'Number of Emails Opened',
-        data: [82,92,77,67,0,13,4,5],
+      { label: 'Number of Emails Sent',
+        data: [82,102,73,67,23,13,14,10],
         backgroundColor :[
 'rgba(75, 192, 192, 0.2)',
 'rgba(75, 192, 192, 0.2)',
@@ -562,7 +530,6 @@ options: {
 });
 
 
-
 Chart.plugins.register({
        afterDatasetsDraw: function(chartInstance, easing) {
            // To only draw at the end of animation, check for easing === 1
@@ -595,42 +562,6 @@ Chart.plugins.register({
            });
        }
    });
-
-// here are the charts next ti timeline ---------------------------------------------------------------------------//
-
-
-// these are good charts ---------------------------------------------------------these are overview charts----------------------------------------//
-
-
-// here are the spears ----------------------------------------------------------------------------------------------//
-$('#progressbar1').LineProgressbar({
-	percentage: 95,
-  height:"25px",
-  radius: '10px',
-  fillBackgroundColor: '#00BCFD',
-});
-
-$('#progressbar2').LineProgressbar({
-	percentage: 74,
-  height:"25px",
-  radius: '10px',
-  fillBackgroundColor: '#00BCFD',
-});
-$('#progressbar3').LineProgressbar({
-	percentage: 65,
-  height:"25px",
-  radius: '10px',
-  fillBackgroundColor: '#00BCFD',
-});
-$('#progressbar4').LineProgressbar({
-	percentage: 25,
-  height:"25px",
-  radius: '10px',
-  fillBackgroundColor: '#00BCFD'
-});
-
-
-// here is the pie chart - may need to change this  --------------------------------------------------------------//
 
 
 
