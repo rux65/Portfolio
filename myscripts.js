@@ -12,7 +12,7 @@ bar.animate(0.25);  // Number from 0.0 to 1.0
 bar.setText("25% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -31,7 +31,7 @@ bar.animate(0.42);  // Number from 0.0 to 1.0
 bar.setText("42% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -50,7 +50,7 @@ bar.animate(0.35);  // Number from 0.0 to 1.0
 bar.setText("35% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -68,7 +68,7 @@ bar.animate(0.2);  // Number from 0.0 to 1.0
 bar.setText("25% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -89,7 +89,7 @@ bar.animate(0.34);  // Number from 0.0 to 1.0
 bar.setText("34% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -110,7 +110,7 @@ bar.setText("44% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 //circle code 2 v 2 //
@@ -129,7 +129,7 @@ bar.animate(0.13);  // Number from 0.0 to 1.0
 bar.setText("13% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -153,7 +153,7 @@ bar.animate(0.05);  // Number from 0.0 to 1.0
 bar.setText("5% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 //----------------------------------------------------------------------------------------------------------------------------------------//
@@ -174,7 +174,7 @@ bar.animate(0.19);  // Number from 0.0 to 1.0
 bar.setText("19% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -196,7 +196,7 @@ bar.animate(0.38);  // Number from 0.0 to 1.0
 bar.setText("38% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -214,7 +214,7 @@ bar.animate(0.1);  // Number from 0.0 to 1.0
 bar.setText("10% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -232,7 +232,7 @@ bar.animate(0.7);  // Number from 0.0 to 1.0
 bar.setText("70% of Employees ");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -253,7 +253,7 @@ bar.animate(0.5);  // Number from 0.0 to 1.0
 bar.setText("50% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -272,7 +272,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -290,7 +290,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -309,7 +309,7 @@ bar.animate(0.2);  // Number from 0.0 to 1.0
 bar.setText("20% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -329,7 +329,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -347,7 +347,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -365,7 +365,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -385,7 +385,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -404,7 +404,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -422,7 +422,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -440,7 +440,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -458,7 +458,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -477,7 +477,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -495,7 +495,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -513,7 +513,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -531,7 +531,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -551,7 +551,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -569,7 +569,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -587,7 +587,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -605,7 +605,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '45px';
+bar.text.style.top = '55px';
 bar.text.style.textAlign= 'center';
 bar.text.style.color="#000000";
 
@@ -630,7 +630,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 var bar = new ProgressBar.Circle(containerC42, {
@@ -647,7 +647,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 var bar = new ProgressBar.Circle(containerC43, {
@@ -664,7 +664,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 var bar = new ProgressBar.Circle(containerC44, {
@@ -681,7 +681,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 
@@ -700,7 +700,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 
@@ -718,7 +718,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 var bar = new ProgressBar.Circle(containerC47, {
@@ -735,7 +735,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 var bar = new ProgressBar.Circle(containerC48, {
@@ -752,7 +752,7 @@ bar.animate(1.0);  // Number from 0.0 to 1.0
 bar.setText("100% of Employees sent emails");
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '16px';
-bar.text.style.top = '105px';
+bar.text.style.top = '80px';
 bar.text.style.textAlign= 'center';
 
 //-------------------------------------------------------------------------------------------------------------the month by month report---//
