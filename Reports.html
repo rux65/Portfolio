@@ -1,17 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
-   <head>
-      <title>
-         Transport
-      </title>
-      <link rel="stylesheet" href="styles.css">
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <title>Implementing reports</title>
+  <link rel="stylesheet" href="styles.css">
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-pie.min.js"></script>
+<link rel="stylesheet" href="style12m.css">
+<link rel="stylesheet" href="LineProgressbar-master/jquery.lineProgressbar.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="ProgressBar.js"></script>
+<!--https://kimmobrunfeldt.github.io/progressbar.js/bundle.js - for the above -->
+<!-- these are the pie charts-->
+
+<script src="https://cdn.anychart.com/js/8.0.1/anychart-core.min.js"></script>
+<script src="https://cdn.anychart.com/js/8.0.1/anychart-pie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-   </head>
-   <body>
-      <header>
+
+<script src="myscripts.js"></script>
+
+</head>
+
+<body>
+
+<header>
          <nav class="common_links">
             <ul>
                <li><a href="#">Ruxi's Portfolio</a></li>
@@ -20,7 +36,7 @@
                <li><a href="#">Search</a></li>
             </ul>
          </nav>
-         <div class="banner"><img src="media/pexels-photo-938963.jpg" alt="banner"></div>
+         <div class="banner"><img src="media/Taxation-and-Accounting_6533529509087445111.jpg" alt="img"></div>
          <nav class="top_menu">
             <ul>
                <li><a href="index.html">Palermo</a></li>
@@ -30,28 +46,741 @@
                <li><a href="About.html">About</a></li>
             </ul>
          </nav>
-      </header>
-      <main>
-		<p> In progress
-		</p>
-	  
-      </main>
-      <footer id="bottom_page">
-         <div class="paragraph">
-            <ul class="common_links_f2">
-               <li><a href="#">Privacy Policy</a></li>
-               <li><a href="#">Terms of Use</a></li>
-               <li><a href="#">Terms and conditions</a></li>
-               <li><a href="#">Contact us</a></li>
-               <li id="copyrights">© 2018 TravelToPalermo All rights reserved</li>
-            </ul>
-            <ul class="common_links_f">
-               <li><a href="#">About us</a></li>
-               <li><a href="#">Contact us</a></li>
-               <li><a href="#">Help centre</a></li>
-               <li><a href="#">Newsletter</a></li>
-            </ul>
-         </div>
-      </footer>
-   </body>
+</header>
+<main>
+<section class="top_page">
+  <h2> Implementing Graphs </h2>
+</section>
+<p style="padding-bottom:40px;">
+This page focuses on implementing other pieces of code from other  languages into the HTML and CSS - without knowing all the elements contained 
+within the implemented files. 
+
+This was an exercise to learn to work with multiple languages and learn about them. 
+
+</p>
+
+
+ <!-- //////////////////////////////////////////////////////////////////////////////////////////////////timeline -->
+
+ <div>
+   <h4 style="padding-bottom:0px;">Timeline</h4>
+ </div>
+
+ <table class="timeline3">
+   <tbody>
+     <tr>
+       <td  id="first_circle" class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s" id="first_circle"><span></span></div>
+        <div><p class="date_text">5th Apr 2018</p></div>
+        <div><p class="line_text">Contract Signed</p></div>
+		</td>
+
+       <td class="medium1"></td>
+         <td class="smaller"><p>Number of Employees</p></td>
+         <td class="smaller">Number of Employees Action1</td>
+         <td class="smaller"> Number of Employees Action2</td>
+         <td class="smaller">Number of Employees Action3</td>
+    </tr>
+
+    <tr>
+      <td class="larger1">
+        <!--div class="line_circle"></div-->
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">5th Apr 2017</p></div>
+      <div><p class="line_text" >First Act</p></div></td>
+      <td class="medium1"><p class="campaign_info">Action l was deployed successfully</p></td>
+      <td class="smaller"><div id="containerC1" style=""></div></td>
+      <td class="smaller"><div id="containerC2" style=""></div></td>
+      <td class="smaller"><div id="containerC3" style=""></div></td>
+      <td class="smaller"><div id="containerC4" style=""></div></td>
+
+    </tr>
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">15th May 2017</p></div>
+      <div><p class="line_text" >Second Act</p></div></td>
+      <td class="medium1"><p class="campaign_info">Action 2 was deployed succesfully</p></td>
+      <td class="smaller"> <div id="containerC5" ></div></td>
+      <td class="smaller"> <div id="containerC6" ></div></td>
+      <td class="smaller"> <div id="containerC7" ></div></td>
+      <td class="smaller"> <div id="containerC8" ></div></td>
+    </tr>
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">29th June 2017</p></div>
+      <div><p class="line_text" >Third Act</p></div></td>
+      <td class="medium1"><p class="campaign_info">Action 3 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC9" ></div></td>
+      <td class="smaller"><div id="containerC10" ></div></td>
+      <td class="smaller"><div id="containerC11" ></div> </td>
+      <td class="smaller"><div id="containerC12" ></div></td>
+    </tr>
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">5th Apr 2017</p></div>
+      <div><p class="line_text" >Third Act</p></div></td>
+        <td class="medium1"><p class="campaign_info">Action 4 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC13" ></div></td>
+      <td class="smaller"><div id="containerC14" ></div></td>
+      <td class="smaller"><div id="containerC15" ></div> </td>
+      <td class="smaller"><div id="containerC16" ></div></td>
+    </tr>
+
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">5th Apr 2017</p></div>
+      <div><p class="line_text" >Third Act</p></div></td>
+      <td class="medium1"><p class="campaign_info">Action 5 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC17" ></div></td>
+      <td class="smaller"><div id="containerC18" ></div></td>
+      <td class="smaller"><div id="containerC19" ></div> </td>
+      <td class="smaller"><div id="containerC20" ></div></td>
+    </tr>
+
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">5th Apr 2017</p></div>
+      <div><p class="line_text" >Third Act</p></div></td>
+      <td class="medium1"><p class="campaign_info">Action 6 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC21" ></div></td>
+      <td class="smaller"><div id="containerC22" ></div></td>
+      <td class="smaller"><div id="containerC23" ></div> </td>
+      <td class="smaller"><div id="containerC24" ></div></td>
+    </tr>
+
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">5th Apr 2017</p></div>
+      <div><p class="line_text" >Third Act</p></div>
+      </td>
+      <td class="medium1"><p class="campaign_info">Action 7 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC25" ></div></td>
+      <td class="smaller"><div id="containerC26" ></div></td>
+      <td class="smaller"><div id="containerC27" ></div> </td>
+      <td class="smaller"><div id="containerC28" ></div></td>
+    </tr>
+
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle"></div>
+        <div class="circle_s"><span> </span></div>
+        <div><p class="date_text">25th Apr 2017</p></div>
+        <div><p class="line_text" >Third Act</p></div>
+      </td>
+      <td class="medium1"><p class="campaign_info">Action 9 was deployed succesfully</p></td>
+      <td class="smaller"><div id="containerC29" ></div></td>
+      <td class="smaller"><div id="containerC30" ></div></td>
+      <td class="smaller"><div id="containerC31" ></div> </td>
+      <td class="smaller"><div id="containerC32" ></div></td>
+    </tr>
+
+    <tr>
+      <td class="larger1">
+        <div class="line_circle3"></div>
+        <div class="circle_s" id="last_circle"><span> </span></div>
+        <div><p class="date_text">5th Apr 2018</p></div>
+        <div><p class="line_text" >End of Year Report</p></div></td>
+        <td class="medium1"></td>
+        <td class="smaller"></td>
+        <td class="smaller"></td>
+        <td class="smaller"></td>
+        <td class="smaller"></td>
+    </tr>
+
+
+  </tbody>
+</table>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////////here are my spears-------->
+
+
+
+
+  <div>
+    <h3>About the Company</h3>
+  </div>
+  <div class="writing1">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+	commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+	dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+	culpa qui officia deserunt mollit anim id est laborum.</p>
+     <ul style="color:black">
+       <li><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+	   laudantium</p> </li>
+       <li><p>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
+	   architecto beatae vitae dicta sunt explicabo</p></li>
+       <li><p>Nemo enim ipsam voluptatem quia voluptas 
+	   sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
+	   voluptatem sequi nesciunt.</p></li>
+     </ul>
+     <p>
+       Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+	   amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut 
+	   labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+	   nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+	   consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
+	   nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+	   </p>
+  </div>
+
+
+
+
+  <!-- -------------------------------------------------------------executive summary -  -->
+
+<div>
+  <h3 style="margin-top:50px">Executive Summary</h3>
+</div>
+
+<div class="writing1">
+  <p>
+  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
+  voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati 
+  cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
+  id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
+  Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id 
+  quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut 
+  et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a 
+  sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis 
+  doloribus asperiores repellat.
+    </p>
+
+</div>
+
+<table class="table_of_stars">
+  <tbody>
+    <tr style="background: rgba(0,182,185,0.4);">
+      <td>#REF</td>
+      <td>Title</td>
+      <td>Target</td>
+      <td>Staff</td>
+      <td>% staff who thanked</td>
+      <td>% staff who were ignored</td>
+      <td>% staff who complained</td>
+      <td>% of staff who reported</td>
+      <td>% Staff  </td>
+    </tr>
+
+
+    <tr style="background: rgba(0,251,139,0.4);">
+      <td>BB1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr  style="background: rgba(0,255,170,0.4);">
+      <td>BB2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,255,224,0.4);">
+      <td>BB3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,230,255,0.4);" >
+      <td>BB4</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,220,255,0.4);">
+      <td>BB5</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,205,255,0.4);">
+      <td>BB6</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,185,255,0.4);">
+      <td>BB7</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr style="background: rgba(0,124,255,0.4);">
+      <td>BB8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+<div class="writing1">
+
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+</p>
+</div>
+
+<!-- new circle
+
+<div id="containerC1" style="margin:20px; width:400px; height:400px"></div>
+<div style="width:100%; float:center, margin-left:30px; font-size:20px"><span style="background:red;padding:3px 10px 5px 10px;">  </span>Number of something</div>
+---------------------------------------------------------------------------------------------->
+
+
+
+
+<h4 style="margin-top:50px">Number of emails</h4>
+
+
+<table class="decrease_in_clicks" > <!-- decrease in clicks-->
+  <tbody>
+
+    <tr>
+      <td class="circles54"><div id="containerC41" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC42" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC43" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC44" ></div><div class="text_BP"><p>BB</p></div></td>
+    </tr>
+    <tr>
+      <td class="circles54"><div id="containerC45" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC46" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC47" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"></td>
+      <td class="circles54"><div id="containerC48" ></div><div class="text_BP"><p>BB</p></div></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br><br><br></p>
+<div class="writing1">
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+</p></div>
+
+
+
+<h4>Number of users</h4>
+<table class="decrease_in_clicks" > <!-- decrease in info submitted-->
+  <tbody>
+
+    <tr>
+      <td class="circles54"><div id="containerC49" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg" alt="arrow"></td>
+      <td class="circles54"><div id="containerC50" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg"  alt="arrow"></td>
+      <td class="circles54"><div id="containerC51" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg" alt="arrow"></td>
+      <td class="circles54"><div id="containerC52" ></div><div class="text_BP"><p>BB</p></div></td>
+    </tr>
+    <tr>
+      <td class="circles54"><div id="containerC53" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg" alt="arrow"></td>
+      <td class="circles54"><div id="containerC54" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg" alt="arrow"></td>
+      <td class="circles54"><div id="containerC55" ></div><div class="text_BP"><p>BB</p></div></td>
+      <td class="arrow54"><img src="media\arrow2.jpg" alt="arrow"></td>
+      <td class="circles54"><div id="containerC56" ></div><div class="text_BP"><p>BB</p></div></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<div class="writing1">
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+</p></div>
+
+
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<div>
+  <h3>Trend Analysis</h3>
+</div>
+
+<table style="width:80%; top:0;margin:0; position:relative;">
+  <tbody>
+    <tr>
+      <td style="width:80%; height:80%;">
+        <ul style="list-style-type:none; width:99%; ">
+        <li style="padding-left:10px; padding-bottom:20px;  padding-top:0; top:0; bottom:0; right:0; left:0; width:94%; height:20%"><canvas id="myChart2"></canvas></li>
+        
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+<div>
+  <h3>Appendices</h3>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+    <footer>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="LineProgressbar-master/jquery.lineProgressbar.js"></script>
+      <!--<script src="jquery.lineProgressbar.min.js"></script>  -->
+      <script src="myscripts.js"></script>
+
+    </footer>
+
+
+
+<script>
+
+// here are my bar charts --------------------------------------------------------------------------//
+var ctx = document.getElementById("myChart"); //opened
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["5th Apr 2017", "13th Sep 2017" , "18th Oct 2017" , "28th Mar 2018", "11th Apr 2018", "18th Apr 2018", "23rd Apr 2018", "2nd May 2018"],
+    datasets: [
+      { label: 'Number of Emails Opened',
+        data: [82,92,77,67,0,13,4,5],
+        backgroundColor :[
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)'
+        ],
+
+        borderColor: [
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)'
+],
+      borderWidth : 1
+    }
+  ]
+},
+options: {
+  scales: {
+    yAxes: [{
+      ticks: {
+        beginAtZero:true
+      }
+}]
+}
+}
+});
+
+var ctx = document.getElementById("myChart2"); // reported
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["5th Apr 2017", "13th Sep 2017" , "18th Oct 2017" , "28th Mar 2018", "11th Apr 2018", "18th Apr 2018", "23rd Apr 2018", "2nd May 2018"],
+    datasets: [
+      { label: 'Number of Emails Reported',
+        data: [0,70,38,52,60,23,26,48],
+        backgroundColor :[
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+
+        ],
+
+        borderColor: [
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)'
+],
+      borderWidth : 1
+    }
+  ]
+},
+options: {
+  scales: {
+    yAxes: [{
+      ticks: {
+        beginAtZero:true
+      }
+}]
+}
+}
+});
+
+var ctx = document.getElementById("myChart3"); // clicked
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["5th Apr 2017", "13th Sep 2017" , "18th Oct 2017" , "28th Mar 2018", "11th Apr 2018", "18th Apr 2018", "23rd Apr 2018", "2nd May 2018"],
+    datasets: [
+      { label: 'Number of Clicks',
+        data: [68,26,50,32,13,4,5,3],
+        backgroundColor :[
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)'
+        ],
+
+        borderColor: [
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)'
+],
+      borderWidth : 1
+    }
+  ]
+},
+options: {
+  scales: {
+    yAxes: [{
+      ticks: {
+        beginAtZero:true
+      }
+}]
+}
+}
+});
+
+var ctx = document.getElementById("myChart4"); // downloaded
+var myChart = new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ["5th Apr 2017", "13th Sep 2017" , "18th Oct 2017" , "28th Mar 2018", "11th Apr 2018", "18th Apr 2018", "23rd Apr 2018", "2nd May 2018"],
+    datasets: [
+      { label: 'Number of Clicks',
+        data: [49,11,0,22,0,13,4,3],
+        backgroundColor :[
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)',
+'rgba(75, 192, 192, 0.2)'
+        ],
+
+        borderColor: [
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(54, 162, 235, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)',
+'rgba(75, 192, 192, 1)'
+],
+      borderWidth : 1
+    }
+  ]
+},
+options: {
+  scales: {
+    yAxes: [{
+      ticks: {
+        beginAtZero:true
+      }
+}]
+}
+}
+});
+
+
+Chart.plugins.register({
+       afterDatasetsDraw: function(chartInstance, easing) {
+           // To only draw at the end of animation, check for easing === 1
+           var ctx = chartInstance.chart.ctx;
+
+           chartInstance.data.datasets.forEach(function (dataset, i) {
+               var meta = chartInstance.getDatasetMeta(i);
+               if (!meta.hidden) {
+                   meta.data.forEach(function(element, index) {
+                       // Draw the text in black, with the specified font
+                       ctx.fillStyle = 'rgb(0, 0, 0)';
+
+                       var fontSize = 16;
+                       var fontStyle = 'normal';
+                       var fontFamily = 'Helvetica Neue';
+                       ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+
+                       // Just naively convert to string for now
+                       var dataString = dataset.data[index].toString();
+
+                       // Make sure alignment settings are correct
+                       ctx.textAlign = 'center';
+                       ctx.textBaseline = 'middle';
+
+                       var padding = 5;
+                       var position = element.tooltipPosition();
+                       ctx.fillText(dataString, position.x, position.y - (fontSize / 2) - padding);
+                   });
+               }
+           });
+       }
+   });
+
+// here are the charts next ti timeline ---------------------------------------------------------------------------//
+
+
+// these are good charts ---------------------------------------------------------these are overview charts----------------------------------------//
+
+
+// here are the spears ----------------------------------------------------------------------------------------------//
+$('#progressbar1').LineProgressbar({
+	percentage: 95,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+
+$('#progressbar2').LineProgressbar({
+	percentage: 74,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+$('#progressbar3').LineProgressbar({
+	percentage: 65,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD',
+});
+$('#progressbar4').LineProgressbar({
+	percentage: 25,
+  height:"25px",
+  radius: '10px',
+  fillBackgroundColor: '#00BCFD'
+});
+
+
+// here is the pie chart - may need to change this  --------------------------------------------------------------//
+
+
+
+</script>
+
+</body>
+
 </html>
